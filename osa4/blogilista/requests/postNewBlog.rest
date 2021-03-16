@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdnZ2ciLCJpZCI6IjVmYTQ0YjY3YjMwMzM0MDcwNDI1YTRkZiIsImlhdCI6MTYwNDYwMjc5M30.3ENikIFnUnczfZxS8vq6yNn-WLU591PWAFhknowHx64
+
+{
+    "title": "newblog4",
+    "author": "random",
+    "url": "www.google.fi",
+    "likes": 10,
+    "userId": "5fa44b67b30334070425a4df"
+}
